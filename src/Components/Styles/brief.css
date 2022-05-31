@@ -1,0 +1,69 @@
+.brief{
+    max-width: 1000px;
+    margin:auto;
+    display: flex;
+    justify-content: flex-start;
+    background: aliceblue;
+    flex-direction: column;
+    /* gap:2em;/ */
+    padding: 50px;
+    color: rgb(16, 99, 171);
+    min-height: 100vh;
+}
+.brief h1{
+    background: rgb(16, 99, 171);
+    padding: 10px 20px;
+    font-size: 2.0em;
+    color: aliceblue;
+}
+.brief > div.line{
+    width: 100%;
+    height: 4px;
+    margin:10px auto;
+    margin-bottom: 0px;
+    background: rgb(16, 99, 171);
+    /* background: red; */
+    display: block;
+}
+.brief > p > h3{
+    margin:10px auto;
+    background: rgb(16, 99, 171);
+    color: aliceblue;
+    padding: 10px  20px;
+}
+.brief > p > ul{
+    padding: 10px;
+    background: rgb(233, 243, 250);
+}
+.brief > p > ul > li{
+    padding: 10px 20px;
+    list-style: none;
+    letter-spacing: 2px;
+    background: transparent;
+    margin:10px;
+    border-right: 12px solid rgb(7, 55, 98) ;
+}
+.brief > p > ul > li:after{
+    content: '';
+    width: 100%;
+    height: 0.2px;
+    margin:5px auto;
+    margin-bottom: 0px;
+    background: rgb(16, 99, 171);
+    /* background: red; */
+    display: block;  
+}
+.brief > p > ul > li:hover{
+    background: aliceblue;
+    border: none;
+}
+.brief > p > p{
+    padding: 10px 20px;
+}
+.brief > p > p > h3{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: rgb(233, 243, 250);
+}
+
+

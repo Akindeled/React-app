@@ -1,0 +1,183 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.LandingPage{
+    background: rgb(1, 22, 40);
+    min-height: 10vh;
+}
+.LandingPage > .Container{
+    padding: 0px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.LandingPage > .Container > .imageClass{ 
+    display: flex;
+    /* padding: 50px; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.LandingPage > .Container > .imageClass > h1{
+    padding: 10px 50px;
+    text-align: center;
+    background: rgb(1, 22, 40);
+    /* background: rgb(1, 225, 40); */
+    border: 12px double aliceblue;
+    color: aliceblue;
+    opacity: 0;
+    position: relative;
+    top: -190px;
+    left: 0px;
+    transition-delay: 0.25s;
+    transition: 1.5s all ease-in-out;
+}
+
+.LandingPage h1{
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    background: aliceblue;
+    color:rgb(2, 28, 50);
+}
+.LandingPage .imageClass:hover > img{
+    opacity: 0;
+}
+.LandingPage .imageClass:hover > h1{
+    opacity: 1;
+}
+.LandingPage img{
+    width: 250px;
+    transition: 1.5s all ease-in-out;
+    filter: hue-rotate(180deg);
+    border-radius: 50%;
+    border: aliceblue 15px double;
+}
+.LandingPage .myHover:hover p{
+    opacity: 1;
+    /* transform: translateY(0); */
+    position: relative;
+    top:-350px;
+}
+.LandingPage  .imageClass .myHover{
+    transform: translateY(0px);
+}
+.myHover h1{
+    width: 300px;
+    margin: auto;
+    background: aliceblue;
+    font-size: 10px;
+    color: brown;
+    position: relative;
+    font-size: 15px;
+    top: -80px;
+}
+.LandingPage .myHover p{
+    background: rgba(240, 248, 255,1.255);
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px;
+    color: rgb(7, 53, 94);
+    opacity: 0;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: -200px;
+    transition: all 0.75s ease-in-out;
+    z-index: 3;
+}
+.LandingPage > .Container > .tableOfCOntent{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+    color: aliceblue;
+}
+.LandingPage > .Container > .tableOfCOntent h1{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: transparent;
+    border: aliceblue solid 2px;
+    color: aliceblue;
+}
+hr{
+    height: 1px;
+    border: none;
+    width: 250px;
+    background: brown;
+    margin: 20px auto;
+}
+.LandingPage > .Container > .tableOfCOntent p p{
+    font-weight: 700;
+    margin: 20px auto ;
+    width: 50px;
+    height: 50px;
+    background: aliceblue;
+    color: rgb(1, 22, 40);
+    border-radius:50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.LandingPage > .Container > .tableOfCOntent p p > img{
+    width: 45px;
+    border: none;
+}
+.small{
+    width: 20px;
+}
+@media only screen and (min-width: 600px) {
+    hr{
+        display: none;
+    }
+    .Container{
+        display: flex;
+    }
+    
+    .LandingPage > .Container > .tableOfCOntent{
+        top: -350px;
+    }
+    .LandingPage > .Container > .tableOfCOntent:before{
+        content: '';
+        display: block;
+        width: 60%;
+        height: 5px;
+        margin:15px auto;
+        margin-top: 0px;
+        background: brown;
+    }
+    .LandingPage > .Container > .tableOfCOntent h1{
+        width: 400px;
+        margin: auto;
+    }
+    .LandingPage > .Container > .tableOfCOntent div.ps{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .LandingPage > .Container > .tableOfCOntent div.ps > p{
+        padding: 20px 10px;
+        /* background: aliceblue; */
+        margin: 10px 20px;
+        /* color: rgb(3, 25, 44); */
+        max-width: 300px;
+    }
+    .myHover{
+        width: 400px;
+        display: block;
+    }
+
+}

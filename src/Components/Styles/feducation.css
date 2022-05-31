@@ -1,0 +1,99 @@
+.feducation{
+    background: rgb(1, 22, 40);
+    color: aliceblue;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.feducation div.tierCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.feducation div.title{
+    padding: 50px;
+    padding-top: 0;
+    border-bottom: 5px solid rgb(142, 198, 246);
+    /* background: aliceb
+    lue; */
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.feducation div.title img{
+    max-width: 75px;
+    background: rgb(142, 198, 246);
+    padding: 5px;
+    border-radius: 50%;
+}
+.feducation h1{
+    background: rgb(1, 37, 69);
+    padding: 10px;
+    /* padding-right:0px; */
+    font-size: 1.5em;
+    margin: 0;
+    /* color: rgb(1, 22, 40); */
+    color: rgb(142, 198, 246);
+    border-left: 0px solid rgba(1, 22, 40,0.155);
+    border-right: 10px solid rgba(1, 22, 40,0.155);
+    border-right: 10px solid aliceblue;
+    letter-spacing: 2px;
+}
+.feducation div.tier{
+    padding:15px;
+    max-width: 400px;
+    margin: 50px 20px;
+    background: rgba(1, 22, 40,0.55);
+    border: aliceblue double 5px;
+}
+/* .feducation div.title:after{
+    content: "";
+    display: block;
+
+    /* margin: ; */
+    /* background: red;
+    width: 70%;
+    height: 2px; */
+/* } */
+.feducation div.tier:hover{
+    transform: scale(1.2);
+    text-align: center;
+    transition: .5s ease-in-out;
+}
+.feducation div.tier:hover h4{
+    margin:10px auto;
+}
+.feducation div.tier h4{
+    background: aliceblue;
+    margin-bottom: 10px;
+    font-size: large;
+    color: rgb(1, 22, 40);
+    padding: 10px 20px;
+    width: 60%;
+    border-radius:5px;
+}
+/* .feducation div.tier span{
+    background: #000;
+} */
+
+
+/* 
+<div className="tier">
+<h4>Tertiary Education 
+    <span>Programme:Bachelor of Engineering</span>
+    <span>Discipline:Aerospace Engineering(Aeronautics)</span>
+</h4>
+<p>
+    <span>Institute:</span>
+    Air Force Institute of Technology,Kaduna</p>
+<p>
+    <span>Duration:</span>
+    2020 - 2025
+</p>
+</div> */
