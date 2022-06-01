@@ -38,7 +38,6 @@
     /* padding-right:0px; */
     font-size: 1.5em;
     margin: 0;
-    /* color: rgb(1, 22, 40); */
     color: rgb(142, 198, 246);
     border-left: 0px solid rgba(1, 22, 40,0.155);
     border-right: 10px solid rgba(1, 22, 40,0.155);
@@ -47,9 +46,10 @@
 }
 .feducation div.tier{
     padding:15px;
-    max-width: 400px;
+    width: 350px;
     margin: 50px 20px;
     background: rgba(1, 22, 40,0.55);
+    transition: all .5s ease-in-out;
     border: aliceblue double 5px;
 }
 /* .feducation div.title:after{
@@ -64,13 +64,12 @@
 .feducation div.tier:hover{
     transform: scale(1.2);
     text-align: center;
-    transition: .5s ease-in-out;
 }
 .feducation div.tier:hover h4{
     margin:10px auto;
 }
 .feducation div.tier h4{
-    background: aliceblue;
+    background: rgb(142, 198, 246);
     margin-bottom: 10px;
     font-size: large;
     color: rgb(1, 22, 40);
@@ -78,10 +77,20 @@
     width: 60%;
     border-radius:5px;
 }
-/* .feducation div.tier span{
-    background: #000;
-} */
-
+.feducation div.tier p{
+    padding: 10px 15px;
+    color: aliceblue;
+}
+.feducation div.tier p span{
+    background: aliceblue;
+    color: rgba(1, 22, 40,0.55);
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    border-radius: 2px;
+    /* width: 75%; */
+    padding:  1px 5px;
+}
 
 /* 
 <div className="tier">
