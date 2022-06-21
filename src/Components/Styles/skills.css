@@ -1,0 +1,151 @@
+.project{
+    /* background: rgb(1, 37, 69); */
+    background: rgb(1, 22, 40);
+    /* padding: 50px; */
+    margin: auto;
+    color: aliceblue;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    min-height: 100vh;
+    flex-direction:column;
+}
+.project .heading{
+    display: flex;
+    max-width: 75%;
+    margin: auto;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    gap: 10px;
+    padding: 10px 50px;
+    padding-top: 20px;
+    border-bottom:  5px solid brown;
+}
+
+.project .heading img{
+    width:50px;
+    padding: 2px;
+    border: double 5px black;
+    margin: auto;
+    background: white;
+    border-radius: 50%;
+}
+.project .heading h1 {
+    text-align: center;
+    border: 5px double aliceblue;
+    padding: 5px 10px;
+    font-size: 20px;
+    /* border-left: solid 10px; */
+    /* margin-bottom: 20px; */
+}
+
+.project .SkillsCon{
+    padding:0px;
+    /* background: rgba(1, 40, 20,0.165); */
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 75vh;
+}
+.SkillsCon .digitalcomm{
+    background:rgba(250, 250, 250,0.065);
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.SkillsCon .digitalcomm .itemCon{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* justify-content:; */
+    flex-wrap: wrap;
+}
+.SkillsCon .digitalcomm > h3{
+    text-align: center;
+    color: rgba(1, 22, 40);
+    background: aliceblue;
+    min-width: 200px;
+    padding: 0px 10px;
+    margin:  20px auto;
+}
+.SkillsCon .digitalcomm > h3 >span{
+    color: aliceblue;
+    padding:10px 20px;
+    font-size: 15px;
+    background: rgb(19, 131, 230);
+}
+.SkillsCon .digitalcomm .itemCon .items{
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* align-items: stretch; */
+    /* justify-content: center; */
+}
+.SkillsCon .digitalcomm .items h3{
+    letter-spacing: 2px;
+    padding: 10px;
+    border-left:  15px solid brown;
+}
+.SkillsCon .digitalcomm .items .innerItems{
+    padding: 5px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* background: rgba(1, 22, 40,0.056); */
+    background: aliceblue;
+    margin:10px 0;
+    
+}
+.SkillsCon .digitalcomm .items .innerItems div{
+    min-height: 10vh;
+    padding: 10px;
+    background: rgb(1, 37, 69);
+    /* background: pink; */
+    transition: .25s all ease-in-out;
+    margin: 2px;
+}
+.SkillsCon .digitalcomm .items .innerItems div:hover{
+    transform: scale(1.2);
+    border: 4px rgb(153, 194, 230) solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px ;
+
+}
+.SkillsCon .digitalcomm .items .innerItems div h5{
+    padding: 10px 0px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.SkillsCon .digitalcomm .items .innerItems div h5 span{
+    color: brown;
+}
+.SkillsCon .digitalcomm .items .innerItems div p{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5px;
+    width: 202px;
+    gap: 0px;
+    border: double 8px aliceblue;
+}
+.SkillsCon .digitalcomm .items .innerItems div p span{
+    width: 20px;
+    max-width: 20px;
+    height: 5px;
+    background: rgb(153, 194, 230);
+}
+.SkillsCon .digitalcomm .items .innerItems div p span.ten{
+    width: 10px;
+}
+.SkillsCon .digitalcomm .items .innerItems div p span.five{
+    width: 5px;
+}

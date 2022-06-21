@@ -46,7 +46,7 @@
 }
 .feducation div.tier{
     padding:15px;
-    width: 350px;
+    width:250px;
     margin: 50px 20px;
     background: rgba(1, 22, 40,0.55);
     transition: all .5s ease-in-out;

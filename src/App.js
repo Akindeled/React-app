@@ -22,7 +22,6 @@ function App() {
         <Route path='/Project' exact component={Project} />
         <Route path='/Skills' exact component={Skills} />
       </Switch>
-
     </Router>
     </>
   );

@@ -3,12 +3,13 @@
 }
 .LandingPage{
     background: rgb(1, 22, 40);
-    min-height: 10vh;
+    /* background: red; */
 }
 .LandingPage > .Container{
+    background: rgb(1, 22, 40);
     padding: 0px;
     display: flex;
-    margin: auto;
+    margin:auto 10px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +17,6 @@
 }
 .LandingPage > .Container > .imageClass{ 
     display: flex;
-    /* padding: 50px; */
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;

@@ -1,0 +1,42 @@
+.contact{
+    background: rgb(1, 22, 40);
+    color: aliceblue;
+    font-family: 'Hanalei Fill', cursive; 
+}
+.contactContainer{
+    display: flex;
+    padding: 50px;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.contactContainer .heading{
+    background: rgb(9, 125, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 20px;
+}
+.contactContainer .heading img{
+    width: 50px;
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.contactContainer .contactBody{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+}
+.contactContainer .contactBody .innercon{
+    background: pink;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

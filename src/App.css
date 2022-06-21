@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Hanalei Fill', cursive;
 }
 .topBar{
   padding: 20px 10px;
@@ -59,10 +60,11 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 50px; */
-  /* min-width: ; */
 }
-
+.navigator
+a:hover{
+  text-decoration: none;
+}
 .navigator a > div.box{
   padding: 0px;
   /* background: rgb(7, 130, 237); */
